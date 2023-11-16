@@ -1,0 +1,35 @@
+.section{
+
+     display: flex;
+     justify-content: space-evenly;
+     /* align-items: center; */
+}
+.about{
+     display: flex;
+     justify-content: space-evenly;
+     /* align-items: center; */
+}
+.dirga{
+     display: flex;
+     flex-direction: column;
+     max-width: 300px;
+}
+.renaldi{
+     display: flex;
+     flex-direction: column;
+     max-width: 300px;
+}
+.dio{
+     display: flex;
+     flex-direction: column;
+     max-width: 300px;
+}
+.dirga img{
+     width: 300px;
+}
+.dio img{
+     width: 300px;
+}
+.renaldi img{
+     width: 300px;
+}

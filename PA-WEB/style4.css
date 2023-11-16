@@ -1,0 +1,57 @@
+.atas{
+     padding: 20px;
+     text-align: center;
+     font-size: 40px;
+     font-weight: bolder;
+     color: var(--text-color);
+}
+.bawah{
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+}
+
+.container{
+     background-color: aliceblue   ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     border-radius: 10px;
+     margin: 10px;
+     width: 360px;
+}
+
+.bawah .gambar img{
+     width: 200px;
+     border-radius: 5px;
+     margin-right: 10px;
+}
+
+.bawah .desk{
+     display: flex;
+     flex-direction: column;
+     color: #141619;
+}
+.namaproduct{
+     font-size: larger;
+     font-weight: bolder;
+}
+
+.iconhapus{
+     width: 30px;
+}
+@media screen and (max-width:500px) { 
+     .bawah{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          align-items: center;
+     }
+     .container{
+          width: 300px;
+     }
+     .bawah .gambar img{
+          width: 150px;
+     }
+}

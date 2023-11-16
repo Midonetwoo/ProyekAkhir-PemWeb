@@ -1,0 +1,60 @@
+.bawah{
+     display: flex;
+}
+.container{
+     display: flex;
+     flex-direction: column;
+     background-color: aliceblue;
+     padding: 10px;
+     margin: 30px 10px;
+     border-radius: 10px;
+}
+.container img{
+     width: 200px;
+     border-radius: 5px;
+}
+
+.container p{
+     color: #141619;
+     margin: -10px 0px;
+}
+
+.namaproduct{
+     font-size: larger;
+     font-weight: bolder;
+}
+
+.container button{
+     /* background-color: ; */
+     margin-top: 10px;
+}
+
+.contactus .bawah p{
+     text-align: center;
+}
+
+.bawah button{     
+     align-items: center;
+     justify-content: center;
+}
+
+.bawah button img{
+     width: 30px;
+
+}
+.bawah form img{    
+     width: 30px;
+}
+
+footer .bawah{
+     text-align: center;
+}
+
+@media screen and (max-width:500px) { 
+     .shoppingcart{
+          width: 20px;
+     }
+     /* .product .bawah img{
+          width: 150px;
+     } */
+}
